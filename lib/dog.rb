@@ -21,7 +21,7 @@ class Dog
   def self.print_all
     @@dog_names = []
     @@dog_names << @name
-    puts @@dog_names
+    print @name
   end
   
 end
