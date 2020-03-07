@@ -20,7 +20,9 @@ class Dog
   end
   
   def self.print_all
-    print @name
+    @dog_names = []
+    @dog_names << name
+    print @dog_name
   end
   
 end
