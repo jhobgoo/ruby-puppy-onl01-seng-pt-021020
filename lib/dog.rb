@@ -22,7 +22,7 @@ class Dog
   def self.print_all
     @dog_names = []
     @dog_names << name
-    print @dog_name
+    puts @dog_name
   end
   
 end
