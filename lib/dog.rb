@@ -26,6 +26,7 @@ class Dog
       else
         @@dog_names
       end
+    end
   end
   
 end
