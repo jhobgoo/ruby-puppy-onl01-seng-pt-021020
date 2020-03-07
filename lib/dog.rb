@@ -20,7 +20,12 @@ class Dog
   
   def self.print_all
     @@dog_names = []
-    @@dog_names << @name
+    @@dog_names.each do |name|
+      if !@@dog_names[name] = name
+        @@dog_names << @name
+      else
+        @@dog_names
+      end
     print @name
   end
   
